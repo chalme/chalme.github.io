@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[hadoop-concept]]></title>
+      <url>%2F2016%2F12%2F15%2Fhadoop-concept%2F</url>
+      <content type="text"></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[hexo br 问题]]></title>
       <url>%2F2016%2F12%2F14%2Fhexo-breaks%2F</url>
       <content type="text"><![CDATA[这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰 了好久。按照markdown的语法来说这应该不会出现这个问题。 查阅了一些信息，hexo博客是由hexo-renderer-marked(package.json中含有)解析的，然 后找到这一个依赖源在博客目录下node_modules/hexo-renderer-marked/,修改文件 index.js找到 breaks 改为false。即可 123456789hexo.config.marked = assign(&#123; gfm: true, pedantic: false, sanitize: false, tables: true, breaks: false, smartLists: true, smartypants: true&#125;, hexo.config.marked); 参考网址: 链接 1 链接2]]></content>
