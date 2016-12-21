@@ -85,27 +85,18 @@
 
 
 <meta name="description" content="今天这是我写的第一篇博客，不知道在使用git中遇到过下面的问题 :
-自己配置了全局的用户信息，然后我们却有两个或两个之上 的git账号在不同的服务器上(比如
-github, csdn),或者我们正在做两个以上项目(在github)需要配置不同ssh， 我们的用户信息却
-不同, 但是我们却不能配置两个全局信息。为了使用ssh服务，避免每次都要输入用户密码，我们
-还是要使用秘钥来配置。">
+自己配置了全局的用户信息，然后我们却有两个或两个之上 的git账号在不同的服务器上(比如github, csdn),或者我们正在做两个以上项目(在github)需要配置不同ssh， 我们的用户信息却不同, 但是我们却不能配置两个全局信息。为了使用ssh服务，避免每次都要输入用户密码，我们还是要使用秘钥来配置。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git配置多个ssh用户">
 <meta property="og:url" content="http://chalme.github.io/2016/08/04/gitissue/index.html">
 <meta property="og:site_name" content="Chalme">
 <meta property="og:description" content="今天这是我写的第一篇博客，不知道在使用git中遇到过下面的问题 :
-自己配置了全局的用户信息，然后我们却有两个或两个之上 的git账号在不同的服务器上(比如
-github, csdn),或者我们正在做两个以上项目(在github)需要配置不同ssh， 我们的用户信息却
-不同, 但是我们却不能配置两个全局信息。为了使用ssh服务，避免每次都要输入用户密码，我们
-还是要使用秘钥来配置。">
+自己配置了全局的用户信息，然后我们却有两个或两个之上 的git账号在不同的服务器上(比如github, csdn),或者我们正在做两个以上项目(在github)需要配置不同ssh， 我们的用户信息却不同, 但是我们却不能配置两个全局信息。为了使用ssh服务，避免每次都要输入用户密码，我们还是要使用秘钥来配置。">
 <meta property="og:updated_time" content="2016-12-14T19:19:24.589Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git配置多个ssh用户">
 <meta name="twitter:description" content="今天这是我写的第一篇博客，不知道在使用git中遇到过下面的问题 :
-自己配置了全局的用户信息，然后我们却有两个或两个之上 的git账号在不同的服务器上(比如
-github, csdn),或者我们正在做两个以上项目(在github)需要配置不同ssh， 我们的用户信息却
-不同, 但是我们却不能配置两个全局信息。为了使用ssh服务，避免每次都要输入用户密码，我们
-还是要使用秘钥来配置。">
+自己配置了全局的用户信息，然后我们却有两个或两个之上 的git账号在不同的服务器上(比如github, csdn),或者我们正在做两个以上项目(在github)需要配置不同ssh， 我们的用户信息却不同, 但是我们却不能配置两个全局信息。为了使用ssh服务，避免每次都要输入用户密码，我们还是要使用秘钥来配置。">
 
 
 
@@ -349,21 +340,14 @@ github, csdn),或者我们正在做两个以上项目(在github)需要配置不�
 
       
         <p>今天这是我写的第一篇博客，不知道在使用git中遇到过下面的问题 :</p>
-<blockquote><p>自己配置了全局的用户信息，然后我们却有两个或两个之上 的git账号在不同的服务器上(比如
-github, csdn),或者我们正在做两个以上项目(在github)需要配置不同ssh， 我们的用户信息却
-不同, 但是我们却不能配置两个全局信息。为了使用ssh服务，避免每次都要输入用户密码，我们
-还是要使用秘钥来配置。</p>
+<blockquote><p>自己配置了全局的用户信息，然后我们却有两个或两个之上 的git账号在不同的服务器上(比如<br>github, csdn),或者我们正在做两个以上项目(在github)需要配置不同ssh， 我们的用户信息却<br>不同, 但是我们却不能配置两个全局信息。为了使用ssh服务，避免每次都要输入用户密码，我们<br>还是要使用秘钥来配置。</p>
 </blockquote>
 <a id="more"></a>
-<h2 id="其实这就是个坑"><a href="#其实这就是个坑" class="headerlink" title="其实这就是个坑"></a>其实这就是个坑</h2><p>当我们是新手时，每次看到教程都要配置全局的个人信息(user.name, user.email)，虽然它比较简单，但确实导致
-了一些使用的问题。 切入正题，解决方案：</p>
+<h2 id="其实这就是个坑"><a href="#其实这就是个坑" class="headerlink" title="其实这就是个坑"></a>其实这就是个坑</h2><p>当我们是新手时，每次看到教程都要配置全局的个人信息(user.name, user.email)，虽然它比较简单，但确实导致<br>了一些使用的问题。 切入正题，解决方案：</p>
 <blockquote>
-<p>我们不要使用使用全局的用户信息配置，改成在项目内部配置。
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">git config user.name <span class="string">"username"</span></div><div class="line">git config user.email <span class="string">"XXX@email.com"</span></div></pre></td></tr></table></figure></p>
-<p>配置公钥时，需要在<code>~/.ssh</code>目录下添加一个 <code>config</code> 的文件,格式如下
-<figure class="highlight crmsh"><table><tr><td class="code"><pre><div class="line">Host                         名称(自己决定，方便输入记忆的)</div><div class="line">HostName                     主机名</div><div class="line"><span class="keyword">User</span>                         <span class="title">登录的用户名</span></div><div class="line">IdentityFile                 私钥地址</div></pre></td></tr></table></figure></p>
-<p>例子
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">#github                    <span class="comment">"注释</span></div><div class="line">Host github.<span class="keyword">com</span>            <span class="comment">" 简称</span></div><div class="line">HostName github.<span class="keyword">com</span>        <span class="comment">" 服务器地址</span></div><div class="line">User chalme                <span class="comment">" 用户名</span></div><div class="line">IdentityFile ~/.ssh/id_rsa <span class="comment">" 公钥地址</span></div><div class="line"></div><div class="line">Host code.csdn.net</div><div class="line">HostName code.csdn.net</div><div class="line">User chalme</div><div class="line">IdentityFile ~/.ssh/id_rsa_csdn</div><div class="line"></div><div class="line">Host A</div><div class="line">HostName github.<span class="keyword">com</span></div><div class="line">User B</div><div class="line">IdentityFile ~/.ssh/id_rsa_csdn</div></pre></td></tr></table></figure></p>
+<p>我们不要使用使用全局的用户信息配置，改成在项目内部配置。<br><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">git config user.name <span class="string">"username"</span></div><div class="line">git config user.email <span class="string">"XXX@email.com"</span></div></pre></td></tr></table></figure></p>
+<p>配置公钥时，需要在<code>~/.ssh</code>目录下添加一个 <code>config</code> 的文件,格式如下<br><figure class="highlight crmsh"><table><tr><td class="code"><pre><div class="line">Host                         名称(自己决定，方便输入记忆的)</div><div class="line">HostName                     主机名</div><div class="line"><span class="keyword">User</span>                         <span class="title">登录的用户名</span></div><div class="line">IdentityFile                 私钥地址</div></pre></td></tr></table></figure></p>
+<p>例子<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">#github                    <span class="comment">"注释</span></div><div class="line">Host github.<span class="keyword">com</span>            <span class="comment">" 简称</span></div><div class="line">HostName github.<span class="keyword">com</span>        <span class="comment">" 服务器地址</span></div><div class="line">User chalme                <span class="comment">" 用户名</span></div><div class="line">IdentityFile ~/.ssh/id_rsa <span class="comment">" 公钥地址</span></div><div class="line"></div><div class="line">Host code.csdn.net</div><div class="line">HostName code.csdn.net</div><div class="line">User chalme</div><div class="line">IdentityFile ~/.ssh/id_rsa_csdn</div><div class="line"></div><div class="line">Host A</div><div class="line">HostName github.<span class="keyword">com</span></div><div class="line">User B</div><div class="line">IdentityFile ~/.ssh/id_rsa_csdn</div></pre></td></tr></table></figure></p>
 </blockquote>
 
       

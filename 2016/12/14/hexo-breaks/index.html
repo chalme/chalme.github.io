@@ -84,28 +84,19 @@
 
 
 
-<meta name="description" content="这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰
-了好久。按照markdown的语法来说这应该不会出现这个问题。
-查阅了一些信息，hexo博客是由hexo-renderer-marked(package.json中含有)解析的，然
-后找到这一个依赖源在博客目录下node_modules/hexo-renderer-marked/,修改文件
-index.js">
+<meta name="description" content="这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰了好久。按照markdown的语法来说这应该不会出现这个问题。
+查阅了一些信息，hexo博客是由hexo-renderer-marked(package.json中含有)解析的，然后找到这一个依赖源在博客目录下node_modules/hexo-renderer-marked/,修改文件index.js找到">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo br 问题">
 <meta property="og:url" content="http://chalme.github.io/2016/12/14/hexo-breaks/index.html">
 <meta property="og:site_name" content="Chalme">
-<meta property="og:description" content="这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰
-了好久。按照markdown的语法来说这应该不会出现这个问题。
-查阅了一些信息，hexo博客是由hexo-renderer-marked(package.json中含有)解析的，然
-后找到这一个依赖源在博客目录下node_modules/hexo-renderer-marked/,修改文件
-index.js">
+<meta property="og:description" content="这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰了好久。按照markdown的语法来说这应该不会出现这个问题。
+查阅了一些信息，hexo博客是由hexo-renderer-marked(package.json中含有)解析的，然后找到这一个依赖源在博客目录下node_modules/hexo-renderer-marked/,修改文件index.js找到">
 <meta property="og:updated_time" content="2016-12-14T19:19:24.589Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo br 问题">
-<meta name="twitter:description" content="这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰
-了好久。按照markdown的语法来说这应该不会出现这个问题。
-查阅了一些信息，hexo博客是由hexo-renderer-marked(package.json中含有)解析的，然
-后找到这一个依赖源在博客目录下node_modules/hexo-renderer-marked/,修改文件
-index.js">
+<meta name="twitter:description" content="这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰了好久。按照markdown的语法来说这应该不会出现这个问题。
+查阅了一些信息，hexo博客是由hexo-renderer-marked(package.json中含有)解析的，然后找到这一个依赖源在博客目录下node_modules/hexo-renderer-marked/,修改文件index.js找到">
 
 
 
@@ -348,15 +339,9 @@ index.js">
       
 
       
-        <p>这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰
-了好久。按照markdown的语法来说这应该不会出现这个问题。</p>
-<p>查阅了一些信息，hexo博客是由<code>hexo-renderer-marked</code>(package.json中含有)解析的，然
-后找到这一个依赖源在博客目录下<code>node_modules/hexo-renderer-marked/</code>,修改文件
-<code>index.js</code>找到 <code>breaks</code> 改为false。即可
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">hexo.config.marked = assign(&#123;</div><div class="line">  gfm: <span class="literal">true</span>,</div><div class="line">  pedantic: <span class="literal">false</span>,</div><div class="line">  sanitize: <span class="literal">false</span>,</div><div class="line">  tables: <span class="literal">true</span>,</div><div class="line">  breaks: <span class="literal">false</span>,</div><div class="line">  smartLists: <span class="literal">true</span>,</div><div class="line">  smartypants: <span class="literal">true</span></div><div class="line">&#125;, hexo.config.marked);</div></pre></td></tr></table></figure></p>
-<p>参考网址: <a href="http://www.bleachlei.site/blog/2016/11/02/Hexo-br-%E8%BF%87%E5%A4%9A%E9%97%AE%E9%A2%98/" target="_blank" rel="external">链接
-1</a>
-<a href="http://ranler.github.io/2013/12/31/hexo-breaks/" target="_blank" rel="external">链接2</a></p>
+        <p>这两天用vim编写博客，在vim编写时使用了换行符，而且在hexo中同样也会显示出来，困扰<br>了好久。按照markdown的语法来说这应该不会出现这个问题。</p>
+<p>查阅了一些信息，hexo博客是由<code>hexo-renderer-marked</code>(package.json中含有)解析的，然<br>后找到这一个依赖源在博客目录下<code>node_modules/hexo-renderer-marked/</code>,修改文件<br><code>index.js</code>找到 <code>breaks</code> 改为false。即可<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">hexo.config.marked = assign(&#123;</div><div class="line">  gfm: <span class="literal">true</span>,</div><div class="line">  pedantic: <span class="literal">false</span>,</div><div class="line">  sanitize: <span class="literal">false</span>,</div><div class="line">  tables: <span class="literal">true</span>,</div><div class="line">  breaks: <span class="literal">false</span>,</div><div class="line">  smartLists: <span class="literal">true</span>,</div><div class="line">  smartypants: <span class="literal">true</span></div><div class="line">&#125;, hexo.config.marked);</div></pre></td></tr></table></figure></p>
+<p>参考网址: <a href="http://www.bleachlei.site/blog/2016/11/02/Hexo-br-%E8%BF%87%E5%A4%9A%E9%97%AE%E9%A2%98/" target="_blank" rel="external">链接<br>1</a><br><a href="http://ranler.github.io/2013/12/31/hexo-breaks/" target="_blank" rel="external">链接2</a></p>
 
       
     </div>
