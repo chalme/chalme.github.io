@@ -3,6 +3,20 @@
   
     
     <entry>
+      <title><![CDATA[markdown-client-ubuntu.md]]></title>
+      <url>%2F2016%2F12%2F26%2Fmarkdown-client-ubuntu-md%2F</url>
+      <content type="text"></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[构建高性能Web站点笔记]]></title>
+      <url>%2F2016%2F12%2F26%2Fnote-webHighPerformance-guoxin%2F</url>
+      <content type="text"><![CDATA[绪论浏览器等待包括哪些时间 数据在网络上传输的时间。 站点服务器处理请求并生成回应数据的时间。 浏览器本地计算和渲染的时间。]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[Hadoop 概念]]></title>
       <url>%2F2016%2F12%2F15%2Fhadoop-concept%2F</url>
       <content type="text"><![CDATA[面对大数据量的处理需求，一个常用的方法就是把他们分割成互不依赖的小份数据来分别计算处理，这就是所谓的单指令多数据流（single-instruation,multiple-data,SIMD）的数据计算模式。Hadoop 为这样的云计算需求提供了一套开源的计算框架和一套分布式文件系统。 Hadoop]]></content>

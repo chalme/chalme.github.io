@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chalme.github.io/"/>
-  <updated>2016-12-21T18:44:10.114Z</updated>
+  <updated>2016-12-25T19:37:03.183Z</updated>
   <id>http://chalme.github.io/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown-client-ubuntu.md</title>
+    <link href="http://chalme.github.io/2016/12/26/markdown-client-ubuntu-md/"/>
+    <id>http://chalme.github.io/2016/12/26/markdown-client-ubuntu-md/</id>
+    <published>2016-12-25T19:37:03.000Z</published>
+    <updated>2016-12-25T19:37:03.183Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>构建高性能Web站点笔记</title>
+    <link href="http://chalme.github.io/2016/12/26/note-webHighPerformance-guoxin/"/>
+    <id>http://chalme.github.io/2016/12/26/note-webHighPerformance-guoxin/</id>
+    <published>2016-12-25T19:23:42.000Z</published>
+    <updated>2016-12-25T19:42:01.750Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><h3 id="浏览器等待包括哪些时间"><a href="#浏览器等待包括哪些时间" class="headerlink" title="浏览器等待包括哪些时间"></a>浏览器等待包括哪些时间</h3><ul>
+<li>数据在网络上传输的时间。</li>
+<li>站点服务器处理请求并生成回应数据的时间。</li>
+<li>浏览器本地计算和渲染的时间。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;绪论&quot;&gt;&lt;a href=&quot;#绪论&quot; class=&quot;headerlink&quot; title=&quot;绪论&quot;&gt;&lt;/a&gt;绪论&lt;/h2&gt;&lt;h3 id=&quot;浏览器等待包括哪些时间&quot;&gt;&lt;a href=&quot;#浏览器等待包括哪些时间&quot; class=&quot;headerlink&quot; title=&quot;浏览器
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://chalme.github.io/tags/note/"/>
+    
+  </entry>
   
   <entry>
     <title>Hadoop 概念</title>
