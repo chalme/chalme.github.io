@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chalme.github.io/"/>
-  <updated>2016-12-25T19:37:03.183Z</updated>
+  <updated>2017-01-08T15:15:02.386Z</updated>
   <id>http://chalme.github.io/</id>
   
   <author>
@@ -16,16 +16,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>markdown-client-ubuntu.md</title>
-    <link href="http://chalme.github.io/2016/12/26/markdown-client-ubuntu-md/"/>
-    <id>http://chalme.github.io/2016/12/26/markdown-client-ubuntu-md/</id>
-    <published>2016-12-25T19:37:03.000Z</published>
-    <updated>2016-12-25T19:37:03.183Z</updated>
+    <title>关于shell</title>
+    <link href="http://chalme.github.io/2017/01/08/shell-config/"/>
+    <id>http://chalme.github.io/2017/01/08/shell-config/</id>
+    <published>2017-01-08T14:27:17.000Z</published>
+    <updated>2017-01-08T15:15:02.386Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="zsh"><a href="#zsh" class="headerlink" title="zsh"></a>zsh</h2><p>使用 (oh-my-zsh) 来提升体检，还是不错的，github有40000+的星</p>
+<h2 id="fish（推荐）"><a href="#fish（推荐）" class="headerlink" title="fish（推荐）"></a>fish（推荐）</h2><p><a href="https://fishshell.com" target="_blank" rel="external">fish (Friendly Interactive Shell)</a></p>
+<blockquote>
+<p>fish is a fully-equipped command line shell (like bash or zsh) that is smart and user-friendly. fish supports powerful features like syntax highlighting, autosuggestions, and tab completions that just work, with nothing to learn or configure.<br>If you want to make your command line more productive, more useful, and more fun, without learning a bunch of arcane syntax and configuration options, then fish might be just what you’re looking for!</p>
+</blockquote>
+<h3 id="为什么我喜欢"><a href="#为什么我喜欢" class="headerlink" title="为什么我喜欢"></a>为什么我喜欢</h3><ol>
+<li>不需要过多配置，用户友好。</li>
+<li>快，相比（过多配置的zsh来说）</li>
+<li>vi 模式支持</li>
+<li>(Oh-my-zsh)的功能基本都支持</li>
+</ol>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p><a href="https://github.com/oh-my-fish/oh-my-fish" target="_blank" rel="external">Oh-my-fish</a>来管理插件主题等等（和oh-my-zsh)功能差不多</p>
+<ul>
+<li>theme 我的主题 推荐 batman, es(目前我使用的主题)</li>
+<li>plugin<ol>
+<li>z(类似autojump功能，根据历史快捷进入目录)</li>
+<li>re-search (向后搜索历史命令)</li>
+</ol>
+</li>
+</ul>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="http://hackerxu.com/2015/12/13/fish.html" target="_blank" rel="external">1</a><br><a href="http://erthalion.info/2014/08/08/from-bash-to-fish/" target="_blank" rel="external">2</a><br><a href="https://geowarin.github.io/the-missing-fish-shell-tutorial.html" target="_blank" rel="external">3</a></p>
+]]></content>
     
     <summary type="html">
     
+      &lt;h2 id=&quot;zsh&quot;&gt;&lt;a href=&quot;#zsh&quot; class=&quot;headerlink&quot; title=&quot;zsh&quot;&gt;&lt;/a&gt;zsh&lt;/h2&gt;&lt;p&gt;使用 (oh-my-zsh) 来提升体检，还是不错的，github有40000+的星&lt;/p&gt;
+&lt;h2 id=&quot;fish（推荐）&quot;&gt;&lt;
+    
     </summary>
     
+    
+      <category term="shell" scheme="http://chalme.github.io/tags/shell/"/>
     
   </entry>
   
@@ -125,7 +153,7 @@
 </ul>
 <h2 id="理解容器"><a href="#理解容器" class="headerlink" title="理解容器"></a>理解容器</h2><ul>
 <li><p>容器的核心技术是 Cgroup + Namespace ，但光有这两个抽象的技术概念是无 法组成容器。Linux 容器的最小组成，可以由以下公式来表示：</p>
-  <figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">容器 = cgroup + <span class="keyword">namespace</span> + rootfs + 容器引擎（用户态工具）</div></pre></td></tr></table></figure>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">容器 = cgroup + <span class="keyword">namespace</span> + rootfs + 容器引擎（用户态工具）</div></pre></td></tr></table></figure>
 <p>  其各项功能分别是：</p>
 <ul>
 <li>Cgroup：资源控制。</li>
