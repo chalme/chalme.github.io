@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://chalme.github.io/"/>
-  <updated>2017-01-08T15:15:02.386Z</updated>
+  <updated>2017-01-08T15:24:17.255Z</updated>
   <id>http://chalme.github.io/</id>
   
   <author>
@@ -20,9 +20,11 @@
     <link href="http://chalme.github.io/2017/01/08/shell-config/"/>
     <id>http://chalme.github.io/2017/01/08/shell-config/</id>
     <published>2017-01-08T14:27:17.000Z</published>
-    <updated>2017-01-08T15:15:02.386Z</updated>
+    <updated>2017-01-08T15:24:17.255Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="zsh"><a href="#zsh" class="headerlink" title="zsh"></a>zsh</h2><p>使用 (oh-my-zsh) 来提升体检，还是不错的，github有40000+的星</p>
+    <content type="html"><![CDATA[<p>之前在逛博客的时候，发现zsh的一篇配置文档，用上十分爽。才过了没几天，又看到了fish这个shell，确实感觉比zsh强。感觉好善变啊。 -_-!!不过确实好用！！！</p>
+<a id="more"></a>
+<h2 id="zsh"><a href="#zsh" class="headerlink" title="zsh"></a>zsh</h2><p>使用 (oh-my-zsh) 来提升体检，还是不错的，github有40000+的星</p>
 <h2 id="fish（推荐）"><a href="#fish（推荐）" class="headerlink" title="fish（推荐）"></a>fish（推荐）</h2><p><a href="https://fishshell.com" target="_blank" rel="external">fish (Friendly Interactive Shell)</a></p>
 <blockquote>
 <p>fish is a fully-equipped command line shell (like bash or zsh) that is smart and user-friendly. fish supports powerful features like syntax highlighting, autosuggestions, and tab completions that just work, with nothing to learn or configure.<br>If you want to make your command line more productive, more useful, and more fun, without learning a bunch of arcane syntax and configuration options, then fish might be just what you’re looking for!</p>
@@ -42,13 +44,12 @@
 </ol>
 </li>
 </ul>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="http://hackerxu.com/2015/12/13/fish.html" target="_blank" rel="external">1</a><br><a href="http://erthalion.info/2014/08/08/from-bash-to-fish/" target="_blank" rel="external">2</a><br><a href="https://geowarin.github.io/the-missing-fish-shell-tutorial.html" target="_blank" rel="external">3</a></p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="http://wdxtub.com/2016/02/18/oh-my-zsh/" target="_blank" rel="external">zsh</a><br><a href="http://hackerxu.com/2015/12/13/fish.html" target="_blank" rel="external">1</a> <a href="http://erthalion.info/2014/08/08/from-bash-to-fish/" target="_blank" rel="external">2</a> <a href="https://geowarin.github.io/the-missing-fish-shell-tutorial.html" target="_blank" rel="external">3</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;zsh&quot;&gt;&lt;a href=&quot;#zsh&quot; class=&quot;headerlink&quot; title=&quot;zsh&quot;&gt;&lt;/a&gt;zsh&lt;/h2&gt;&lt;p&gt;使用 (oh-my-zsh) 来提升体检，还是不错的，github有40000+的星&lt;/p&gt;
-&lt;h2 id=&quot;fish（推荐）&quot;&gt;&lt;
+      &lt;p&gt;之前在逛博客的时候，发现zsh的一篇配置文档，用上十分爽。才过了没几天，又看到了fish这个shell，确实感觉比zsh强。感觉好善变啊。 -_-!!不过确实好用！！！&lt;/p&gt;
     
     </summary>
     
